@@ -1,0 +1,18 @@
+.Chatbotlogo{
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  background-image: url(C:\Users\DELL\Desktop\SIH24\online-chatbot-ticket-booking-system\ChatbotLogo.jpg);
+  background-size: contain;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.res{
+  height: 70px;
+  width: 400px;
+}
+
+.res p{
+  display: inline-block;
+}
