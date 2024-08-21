@@ -1,0 +1,9 @@
+#chatbotTab{
+  height: 80vh;
+  width: 800px;
+  border: 1px solid lightblue;
+  border-radius: 30px;
+  background-image: url(C:\Users\DELL\Desktop\SIH24\online-chatbot-ticket-booking-system\cbbackground.jpg);
+  background-size: contain;
+  overflow-x: hidden;
+}

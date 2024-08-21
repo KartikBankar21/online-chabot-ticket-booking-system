@@ -1,3 +1,11 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+ .logodiv{
+  margin-top: 5px;
+  margin-left: 5px;
+ }
 .Chatbotlogo{
   height: 40px;
   width: 40px;
@@ -9,10 +17,37 @@
 }
 
 .res{
-  height: 70px;
-  width: 400px;
+  /* height: 80px; */
+  width: 200px;
+  margin: 20px 0;
+  margin-left: 10px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.res p{
-  display: inline-block;
+.resbox{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  margin-left: 4px;
+  padding-top: 5px;
+}
+
+.res .nameChatbot{
+  margin: 0px 6px;
+  align-self: flex-start;
+  font-weight: 550;
+  flex-basis: 100%;
+  text-align: start;
+}
+
+.res .resmsg{
+  margin: 0px;
+  margin-left: 6px;
+  font-size: 0.9rem;
+  flex-basis: 100%;
+  text-align: start;
 }
